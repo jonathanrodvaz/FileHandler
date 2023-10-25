@@ -1,0 +1,16 @@
+C:\Users\jhrva\Desktop\Proyectos\C-Sharp_Projects\FileHandler\FileHandler\FileHandler\bin\Debug\net6.0-windows\FileHandler.exe
+C:\Users\jhrva\Desktop\Proyectos\C-Sharp_Projects\FileHandler\FileHandler\FileHandler\bin\Debug\net6.0-windows\FileHandler.deps.json
+C:\Users\jhrva\Desktop\Proyectos\C-Sharp_Projects\FileHandler\FileHandler\FileHandler\bin\Debug\net6.0-windows\FileHandler.runtimeconfig.json
+C:\Users\jhrva\Desktop\Proyectos\C-Sharp_Projects\FileHandler\FileHandler\FileHandler\bin\Debug\net6.0-windows\FileHandler.dll
+C:\Users\jhrva\Desktop\Proyectos\C-Sharp_Projects\FileHandler\FileHandler\FileHandler\bin\Debug\net6.0-windows\FileHandler.pdb
+C:\Users\jhrva\Desktop\Proyectos\C-Sharp_Projects\FileHandler\FileHandler\FileHandler\obj\Debug\net6.0-windows\FileHandler.Form1.resources
+C:\Users\jhrva\Desktop\Proyectos\C-Sharp_Projects\FileHandler\FileHandler\FileHandler\obj\Debug\net6.0-windows\FileHandler.csproj.GenerateResource.cache
+C:\Users\jhrva\Desktop\Proyectos\C-Sharp_Projects\FileHandler\FileHandler\FileHandler\obj\Debug\net6.0-windows\FileHandler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jhrva\Desktop\Proyectos\C-Sharp_Projects\FileHandler\FileHandler\FileHandler\obj\Debug\net6.0-windows\FileHandler.AssemblyInfoInputs.cache
+C:\Users\jhrva\Desktop\Proyectos\C-Sharp_Projects\FileHandler\FileHandler\FileHandler\obj\Debug\net6.0-windows\FileHandler.AssemblyInfo.cs
+C:\Users\jhrva\Desktop\Proyectos\C-Sharp_Projects\FileHandler\FileHandler\FileHandler\obj\Debug\net6.0-windows\FileHandler.csproj.CoreCompileInputs.cache
+C:\Users\jhrva\Desktop\Proyectos\C-Sharp_Projects\FileHandler\FileHandler\FileHandler\obj\Debug\net6.0-windows\FileHandler.dll
+C:\Users\jhrva\Desktop\Proyectos\C-Sharp_Projects\FileHandler\FileHandler\FileHandler\obj\Debug\net6.0-windows\refint\FileHandler.dll
+C:\Users\jhrva\Desktop\Proyectos\C-Sharp_Projects\FileHandler\FileHandler\FileHandler\obj\Debug\net6.0-windows\FileHandler.pdb
+C:\Users\jhrva\Desktop\Proyectos\C-Sharp_Projects\FileHandler\FileHandler\FileHandler\obj\Debug\net6.0-windows\FileHandler.genruntimeconfig.cache
+C:\Users\jhrva\Desktop\Proyectos\C-Sharp_Projects\FileHandler\FileHandler\FileHandler\obj\Debug\net6.0-windows\ref\FileHandler.dll
