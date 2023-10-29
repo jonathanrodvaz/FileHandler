@@ -56,18 +56,18 @@
             btnRenameFile = new Button();
             txtRenameFile = new TextBox();
             label9 = new Label();
-            textBox1 = new TextBox();
+            textWrite = new TextBox();
             label10 = new Label();
-            button1 = new Button();
-            button2 = new Button();
+            btnWrite = new Button();
+            btnRead = new Button();
             label11 = new Label();
-            textBox2 = new TextBox();
-            button3 = new Button();
+            txtRead = new TextBox();
+            btnFind = new Button();
             label12 = new Label();
-            textBox3 = new TextBox();
-            button4 = new Button();
+            txtFind = new TextBox();
+            btnUpdate = new Button();
             label13 = new Label();
-            textBox4 = new TextBox();
+            txtUpdate = new TextBox();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -266,7 +266,7 @@
             // 
             // btnOpenFile
             // 
-            btnOpenFile.Location = new Point(258, 441);
+            btnOpenFile.Location = new Point(260, 431);
             btnOpenFile.Name = "btnOpenFile";
             btnOpenFile.Size = new Size(154, 23);
             btnOpenFile.TabIndex = 17;
@@ -276,7 +276,7 @@
             // 
             // txtSelectedFile
             // 
-            txtSelectedFile.Location = new Point(86, 442);
+            txtSelectedFile.Location = new Point(88, 432);
             txtSelectedFile.Name = "txtSelectedFile";
             txtSelectedFile.Size = new Size(166, 23);
             txtSelectedFile.TabIndex = 16;
@@ -285,7 +285,7 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label8.Location = new Point(12, 448);
+            label8.Location = new Point(14, 438);
             label8.Name = "label8";
             label8.Size = new Size(68, 17);
             label8.TabIndex = 15;
@@ -297,7 +297,7 @@
             // 
             // btnRenameFile
             // 
-            btnRenameFile.Location = new Point(258, 470);
+            btnRenameFile.Location = new Point(260, 460);
             btnRenameFile.Name = "btnRenameFile";
             btnRenameFile.Size = new Size(154, 23);
             btnRenameFile.TabIndex = 20;
@@ -307,7 +307,7 @@
             // 
             // txtRenameFile
             // 
-            txtRenameFile.Location = new Point(86, 471);
+            txtRenameFile.Location = new Point(88, 461);
             txtRenameFile.Name = "txtRenameFile";
             txtRenameFile.Size = new Size(166, 23);
             txtRenameFile.TabIndex = 19;
@@ -316,137 +316,141 @@
             // 
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label9.Location = new Point(12, 477);
+            label9.Location = new Point(14, 467);
             label9.Name = "label9";
             label9.Size = new Size(57, 17);
             label9.TabIndex = 18;
             label9.Text = "Rename";
             // 
-            // textBox1
+            // textWrite
             // 
-            textBox1.Location = new Point(12, 534);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(299, 131);
-            textBox1.TabIndex = 21;
+            textWrite.Location = new Point(25, 534);
+            textWrite.Multiline = true;
+            textWrite.Name = "textWrite";
+            textWrite.Size = new Size(188, 131);
+            textWrite.TabIndex = 21;
             // 
             // label10
             // 
             label10.AutoSize = true;
             label10.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label10.Location = new Point(129, 514);
+            label10.Location = new Point(88, 514);
             label10.Name = "label10";
-            label10.Size = new Size(57, 17);
+            label10.Size = new Size(42, 17);
             label10.TabIndex = 22;
-            label10.Text = "Rename";
+            label10.Text = "Write";
             // 
-            // button1
+            // btnWrite
             // 
-            button1.Location = new Point(86, 679);
-            button1.Name = "button1";
-            button1.Size = new Size(154, 23);
-            button1.TabIndex = 23;
-            button1.Text = "Rename";
-            button1.UseVisualStyleBackColor = true;
+            btnWrite.Location = new Point(25, 671);
+            btnWrite.Name = "btnWrite";
+            btnWrite.Size = new Size(188, 23);
+            btnWrite.TabIndex = 23;
+            btnWrite.Text = "Write";
+            btnWrite.UseVisualStyleBackColor = true;
+            btnWrite.Click += btnWrite_Click;
             // 
-            // button2
+            // btnRead
             // 
-            button2.Location = new Point(391, 679);
-            button2.Name = "button2";
-            button2.Size = new Size(154, 23);
-            button2.TabIndex = 26;
-            button2.Text = "Rename";
-            button2.UseVisualStyleBackColor = true;
+            btnRead.Location = new Point(241, 671);
+            btnRead.Name = "btnRead";
+            btnRead.Size = new Size(188, 23);
+            btnRead.TabIndex = 26;
+            btnRead.Text = "Read";
+            btnRead.UseVisualStyleBackColor = true;
+            btnRead.Click += btnRead_Click;
             // 
             // label11
             // 
             label11.AutoSize = true;
             label11.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label11.Location = new Point(434, 514);
+            label11.Location = new Point(308, 514);
             label11.Name = "label11";
-            label11.Size = new Size(57, 17);
+            label11.Size = new Size(38, 17);
             label11.TabIndex = 25;
-            label11.Text = "Rename";
+            label11.Text = "Read";
             // 
-            // textBox2
+            // txtRead
             // 
-            textBox2.Location = new Point(317, 534);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(299, 131);
-            textBox2.TabIndex = 24;
+            txtRead.Location = new Point(241, 534);
+            txtRead.Multiline = true;
+            txtRead.Name = "txtRead";
+            txtRead.Size = new Size(188, 131);
+            txtRead.TabIndex = 24;
             // 
-            // button3
+            // btnFind
             // 
-            button3.Location = new Point(696, 679);
-            button3.Name = "button3";
-            button3.Size = new Size(154, 23);
-            button3.TabIndex = 29;
-            button3.Text = "Rename";
-            button3.UseVisualStyleBackColor = true;
+            btnFind.Location = new Point(480, 671);
+            btnFind.Name = "btnFind";
+            btnFind.Size = new Size(188, 23);
+            btnFind.TabIndex = 29;
+            btnFind.Text = "Find";
+            btnFind.UseVisualStyleBackColor = true;
+            btnFind.Click += btnFind_Click;
             // 
             // label12
             // 
             label12.AutoSize = true;
             label12.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label12.Location = new Point(739, 514);
+            label12.Location = new Point(557, 514);
             label12.Name = "label12";
-            label12.Size = new Size(57, 17);
+            label12.Size = new Size(35, 17);
             label12.TabIndex = 28;
-            label12.Text = "Rename";
+            label12.Text = "Find";
             // 
-            // textBox3
+            // txtFind
             // 
-            textBox3.Location = new Point(622, 534);
-            textBox3.Multiline = true;
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(299, 131);
-            textBox3.TabIndex = 27;
+            txtFind.Location = new Point(480, 534);
+            txtFind.Multiline = true;
+            txtFind.Name = "txtFind";
+            txtFind.Size = new Size(188, 131);
+            txtFind.TabIndex = 27;
             // 
-            // button4
+            // btnUpdate
             // 
-            button4.Location = new Point(1001, 679);
-            button4.Name = "button4";
-            button4.Size = new Size(154, 23);
-            button4.TabIndex = 32;
-            button4.Text = "Rename";
-            button4.UseVisualStyleBackColor = true;
+            btnUpdate.Location = new Point(702, 671);
+            btnUpdate.Name = "btnUpdate";
+            btnUpdate.Size = new Size(188, 23);
+            btnUpdate.TabIndex = 32;
+            btnUpdate.Text = "Update";
+            btnUpdate.UseVisualStyleBackColor = true;
+            btnUpdate.Click += btnUpdate_Click;
             // 
             // label13
             // 
             label13.AutoSize = true;
             label13.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label13.Location = new Point(1044, 514);
+            label13.Location = new Point(765, 514);
             label13.Name = "label13";
-            label13.Size = new Size(57, 17);
+            label13.Size = new Size(52, 17);
             label13.TabIndex = 31;
-            label13.Text = "Rename";
+            label13.Text = "Update";
             // 
-            // textBox4
+            // txtUpdate
             // 
-            textBox4.Location = new Point(927, 534);
-            textBox4.Multiline = true;
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(299, 131);
-            textBox4.TabIndex = 30;
+            txtUpdate.Location = new Point(702, 534);
+            txtUpdate.Multiline = true;
+            txtUpdate.Name = "txtUpdate";
+            txtUpdate.Size = new Size(188, 131);
+            txtUpdate.TabIndex = 30;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1241, 714);
-            Controls.Add(button4);
+            ClientSize = new Size(919, 714);
+            Controls.Add(btnUpdate);
             Controls.Add(label13);
-            Controls.Add(textBox4);
-            Controls.Add(button3);
+            Controls.Add(txtUpdate);
+            Controls.Add(btnFind);
             Controls.Add(label12);
-            Controls.Add(textBox3);
-            Controls.Add(button2);
+            Controls.Add(txtFind);
+            Controls.Add(btnRead);
             Controls.Add(label11);
-            Controls.Add(textBox2);
-            Controls.Add(button1);
+            Controls.Add(txtRead);
+            Controls.Add(btnWrite);
             Controls.Add(label10);
-            Controls.Add(textBox1);
+            Controls.Add(textWrite);
             Controls.Add(btnRenameFile);
             Controls.Add(txtRenameFile);
             Controls.Add(label9);
@@ -507,17 +511,17 @@
         private Button btnRenameFile;
         private TextBox txtRenameFile;
         private Label label9;
-        private TextBox textBox1;
+        private TextBox textWrite;
         private Label label10;
-        private Button button1;
-        private Button button2;
+        private Button btnWrite;
+        private Button btnRead;
         private Label label11;
-        private TextBox textBox2;
-        private Button button3;
+        private TextBox txtRead;
+        private Button btnFind;
         private Label label12;
-        private TextBox textBox3;
-        private Button button4;
+        private TextBox txtFind;
+        private Button btnUpdate;
         private Label label13;
-        private TextBox textBox4;
+        private TextBox txtUpdate;
     }
 }
